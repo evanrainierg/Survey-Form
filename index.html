@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+		<title>iPhone 14 Pre-order Form</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/styles.css"/>
+        
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body id="background">
+    
+    <div>    
+        <img class="image" src="images/Survey-Form-01.jpeg" alt="iPhone14">
+    </div>
+    
+    <div id="orderform">    
+        <h4 class="subtitle">New</h4>
+        <h1 class="title">iPhone 14 is coming.</h1>
+        <p class="description">
+            Pre-order starts 12:00 am PHT on 9.18. <br>
+            Available online starting 9.25.
+        </p>
+        <form id="survey-form" action="">
+            
+            <div>
+                <label>Name:</label>
+                <input type="text" name="name" id="name" size="40" placeholder="Enter your name here.">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" id="email" size="40" placeholder="Enter your email here.">   
+            </div>
+            <div>
+                <label>Contact Number:</label>
+                <input type="number" name="number" id="number" size="40" placeholder="Enter your number here.">
+            </div>
+            
+            <div id="model">
+                <label>Choose the model.</label>
+                <select id="dropdown">
+                    <option value="iPhone14mini">iPhone 14 Mini</option>        
+                    <option value="iPhone14">iPhone 14</option>
+                    <option value="iPhone14Pro">iPhone 14 Pro</option>
+                    <option value="iPhone14ProMax">iPhone 14 Pro Max</option>
+                </select>
+            </div>
+            
+            <br>
+            <div id="finishcapacity">
+                <div class="finish">
+                    <label><strong>Choose your finish.</strong></label><br>
+                    <input type="radio" name="finish" id="pink" value="pink">
+                    <label for="pink">Pink</label><br>    
+                    <input type="radio" name="finish" id="blue" value="blue">
+                    <label for="blue">Blue</label><br>  
+                    <input type="radio" name="finish" id="midnight" value="midnight">
+                    <label for="midnight">Midnight</label><br>  
+                    <input type="radio" name="finish" id="starlight" value="starlight">
+                    <label for="starlight">Starlight</label><br>  
+                    <input type="radio" name="finish" id="red" value="red">
+                    <label for="red">(PRODUCT)  Red</label>
+                </div>
+
+                <div class="capacity">
+                    <label><strong>Choose your capacity.</strong></label><br>
+                    <input type="radio" name="capacity" id="128gb" value="128gb">
+                    <label for="128gb">128 GB</label><br>    
+                    <input type="radio" name="capacity" id="256gb" value="256gb">
+                    <label for="256gb">256 GB</label><br>  
+                    <input type="radio" name="capacity" id="512gb" value="512gb">
+                    <label for="512gb">512 GB</label><br>  
+                    <input type="radio" name="capacity" id="1tb" value="1tb">
+                    <label for="1tb">1 TB</label><br>
+                </div>
+            </div>
+            
+            <br>
+            <div id="freebies">
+                <label><strong>Choose your freebies (select up to 3).</strong></label><br>
+                <input type="checkbox" name="freebies" id="poweradapter" value="poweradapter">
+                <label for="poweradapter">20W USB-C Power Adapter</label><br>    
+                <input type="checkbox" name="freebies" id="charger" value="charger">
+                <label for="charger">MagSafe Charger</label><br>  
+                <input type="checkbox" name="freebies" id="clearcase" value="clearcase">
+                <label for="clearcase">iPhone 14 Clear Case with MagSafe</label><br>  
+                <input type="checkbox" name="freebies" id="leatherwallet" value="leatherwallet">
+                <label for="leatherwallet">iPhone Leather Wallet with MagSafe</label>
+            </div>
+            
+            <br>
+            <div id="notes">
+                <label for="notes"><strong>Notes</strong></label><br>
+                <textarea name="notes" id="text-area" rows="3" cols="45" placeholder="Enter your notes here."></textarea>
+            </div>
+            
+            <input id="submit" type="submit">
+        </form>
+    </div>
+    
+    </body>
+
+</html>
