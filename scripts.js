@@ -6,6 +6,6 @@
     console.log(domName)
   
     if(domName) {
-      domName.textContent = 'Thank you for your survey ' + name
+      domName.textContent = 'Thank you for your pre-order ' + name + '.'
     }
   })()
